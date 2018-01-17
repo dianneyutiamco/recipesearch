@@ -1,0 +1,311 @@
+body {
+	background: url("/app/img/body_bg.jpg");
+	/* image from https://pixabay.com/en/cinnamon-sugar-cinnamon-sugar-spoon-3068158/*/
+	font-family: "Gill Sans MT", "Gill Sans", "My Gill Sans", sans-serif;
+}
+
+.center-contents-div {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.recipe-title {
+	color: #21b0c7;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 32px;
+	letter-spacing: 0px;
+	opacity: 100%;
+}
+
+/* Search CSS Start */
+.search-icon {
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.filter-icon {
+	cursor: pointer;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.collapse {
+	display: none;
+}
+
+.collapse.off {
+	display: block;	
+}
+
+.meal-type,.cuisine-type{
+	display: inline-block;
+	margin-right: 15px;
+
+}
+
+.meal-type label,.cuisine-type label,.apply-filters{
+	color: #ffffff;
+	margin-right: 15px; 
+	
+}
+
+.apply-filters {
+	cursor: pointer;
+	text-decoration: underline;
+	margin-right: 0;
+}
+
+.meal-type select, .cuisine-type select {
+	text-transform: none;
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+.filters-outer {
+	width: 435px;
+	margin: 0 auto;
+}
+
+.searchbox {
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+.search-key-div {
+	background-color: #21b0c7;
+	opacity: 0.9;
+}
+
+.search-filter {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.search-key-text {
+	font-size: 15px;
+	background-color: #eeeeee;
+	border: 0;
+	color: #424242;
+	margin: 8px;
+	outline: 0;
+	padding: 10px;
+	width: 90%;
+}
+
+.search-results-div {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.search-result-item-div {
+	background-color: #fafafa;
+
+	margin-top: 16px;
+	margin-bottom: 16px;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	border-radius: 3px;
+	width: 100%;
+	display: inline-block;
+	opacity: 0.8;
+}
+
+.search-result-img {
+	float: left;
+	width: 170px;
+	margin-left: 30px;
+	opacity: 100%;
+}
+
+.search-result-info {
+	float: left;
+	margin-left: 30px;
+	width: calc(100% - 350px);
+}
+
+.search-result-info a {
+	outline: none;
+	text-decoration: none;
+}
+
+.search-result-info span {
+	font-size: 1.156em;
+	line-height: 24px;
+}
+
+/* Search CSS End */
+
+/* Recipe CSS Start */
+.recipe {
+	background-color: #fafafa;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 3px;
+	width: 100%;
+	display: inline-block;
+}
+
+.recipe h3 {
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.recipe-ingredients div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.recipe-ingredients ul {
+	padding-left: 10px;
+}
+
+.recipe-directions div {
+	margin-left: 20px;
+}
+
+.recipe-ingredients h4, .recipe-directions h4 {
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #3d404a;
+}
+
+.recipe-ingredients li, .recipe-directions li {
+	color: #000000;
+	padding: 3px 0;
+	font-size: 1.1em;
+}
+
+.recipe-rating {
+	margin: 0 auto;
+	width: 250px;
+	text-align: center;
+}
+
+.prep-info {
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.skill-level {
+	width: 30%;
+}
+
+.prep {
+	opacity: 0.8;
+	background-color: #fafafa;
+}
+
+.goback {
+	text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    color: #fafafa;
+    opacity: 0.8;
+}
+
+.recipe-not-found {
+	width: 100%;
+}
+
+.recipe-not-found h3 {
+    font-size: 20px;
+    color: #fafafa;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.recipe-not-found .goback {
+	text-decoration: underline;
+}
+/* Recipe CSS End */
+
+/* Comments CSS Start */
+.comment-section {
+	opacity: 80%;
+}
+
+.comment-item {
+	background-color: #fafafa;
+
+	/*margin-top: 5px;
+	margin-bottom: 5px;*/
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	width: 100%;
+	display: inline-block;
+	opacity: 0.9;
+}
+
+.comment-user-img {
+	float: left;
+	opacity: 100%;
+}
+
+.comment-user-img img {
+	width: 48px;
+	height: 48px;
+}
+
+.comment-info {
+	float: left;
+	margin-left: 30px;
+	width: calc(100% - 350px);
+}
+
+.comment-info .comment-username {
+	color: #21b0c7;
+	font-size: 1em;
+	letter-spacing: 0px;
+	opacity: 100%;
+}
+
+.comment-info span {
+	font-size: 1em;
+	line-height: 24px;
+}
+
+.comment-recipe-section-inner {
+	width: 680px;
+	margin: 0 auto;
+}
+
+.comment-box-userName, .comment-box-desc {
+	font-size: 0.8em;
+	background-color: #eeeeee;
+	border: 1px solid #d2d2d2;
+	outline: none;
+	width: 100%;
+	color: #424242;
+	padding: 5px;
+}
+
+.comment-box-desc {
+	height: 102px;
+	resize: none;
+	margin-top: 8px;
+}
+
+.comment-box-button {
+	background-color: #21b0c7;
+    color: #fafafa;
+    border-radius: 3px;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 8px;
+}
+/* Comments CSS End */
